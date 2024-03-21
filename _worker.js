@@ -11,12 +11,12 @@ let addresses = [
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/dilidaladi/WorkerVless2sub/main/addressesapi.txt' //可参考内容格式 自行搭建。
+	'https://cf-workers-text2kv-2e0.pages.dev/ip.txt?token=83317326' //可参考内容格式 自行搭建。
 ];
 
 let DLS = 4;//速度下限
 let addressescsv = [
-	//'https://cf-workers-text2kv-2e0.pages.dev/result.csv?token=wlzj83317326' //iptest测速结果文件。
+	//'https://cf-workers-text2kv-2e0.pages.dev/result.csv?token=83317326' //iptest测速结果文件。
 ];
 
 let subconverter = "api.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
